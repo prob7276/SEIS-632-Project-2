@@ -1,3 +1,14 @@
+One main issue is there are values N/A and Unknown that should be blanks but are not in the current data analysis
+-Market Category - worth dropping whole column
+-Transmission Type - We could fill in the blanks - it's only 12 rows and KBB could fill that in
+
+We shouldn't use popularity for anything. It's hard to find correlative data and our data has a clear skew toward recent year makes
+We should do a graph for MPG vs Price - there's an interesting U-shape that the heatmap wouldn't catch
+We should include engine fuel type by price - the supercars really skew the price data. What would happen if we remove those two engine fuel types? The most common car-buyer wouldn't buy a super car.
+We need to answer the question: How does dropping the blanks affect our data? At best guess, what would the blanks be and how would dropping them affect our data?
+
+
+
 Multiple records have blanks that would significantly affect the data.
 Blanks in Engine Fuel Type
 Make	Model	Year	Engine Fuel Type	Engine HP	Engine Cylinders	Transmission Type	Driven_Wheels	Number of Doors	Market Category	Vehicle Size	Vehicle Style	highway MPG	city mpg	Popularity	MSRP
